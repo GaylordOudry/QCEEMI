@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/*début nav barre */
+header{
+    background-color:#E8E8E8;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    padding: 0;
+    padding-right: 50px;
+}
+
+.logo{
+    height: 100px;
+    margin-left: 70px;
+}
+
+.logo_img{
+    height: 100%;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+.underline{
+    width: 32px;
+    height: 2px;
+    background-color: black;
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu:hover .underline{
+    width :85%;
+}
+
+/*fin nav barre */
+
+/* début titre page*/
+.upper{
+    display: flex;
+    justify-content: space-between;
+    margin-top:30px;
+    align-items: flex-start;
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow{
+    margin: 10px;
+    margin-left: 25px;
+}
+
+.barre{
+    margin: 10px;
+}
+
+hr{
+    height: 30px;
+    width: 5px;
+    background-color: #F686BD;
+    border: none;
+    border-radius: 6px;
+}
+
+.title_text{
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.icon{
+    margin-right: 25px;
+}
+/* fin titre page*/
+
+/* début contenu*/
+.chap{
+    width: 75%;
+    border: solid 2px #F686BD;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 8%;
+}
+
+.visible{
+    display: flex;
+    justify-content: space-between;
+}
+
+.visible_title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.down{
+    margin: 10px;
+}
+
+.cache{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    border-top: solid 2px #F686BD;
+    padding: 10px;
+}
+
+/*fin contenu*/
